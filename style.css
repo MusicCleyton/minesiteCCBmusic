@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(202, 202, 202);
+    color: rgb(117, 116, 115);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding:15px;
+
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+   text-shadow: 1px 3px 2px rgb(170, 156, 219);
+}
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(212, 212, 212);
+    border-radius: 15px;
+    padding: 10px;
+}
+#home{
+    border-radius:5px;
+}
+#home:hover{
+    background-color:rgb(170, 156, 219);
+    box-shadow: 1px 1px 8px 4px;
+}
+#title{
+    flex-direction: column;
+    line-height: 30px;
+}
+.menu{
+    display:inline-block ;
+    margin: 20px;
+    color:rgb(117, 116, 115); 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.menu:hover{
+    background-color: rgb(170, 156, 219);
+    border-radius: 9px;
+    color: white;
+    cursor:pointer;
+    box-shadow: 1px 1px 8px 4px rgb(117, 116, 115);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+li:hover{
+    width: auto;
+    background-color:rgb(170, 156, 219);
+    border-radius: 3px;
+    color: white;
+    cursor:pointer;
+    box-shadow: 1px 1px 8px 4px rgb(117, 116, 115);
+   
+}
+aside{
+    background-color:rgb(212, 212, 212); 
+    border-radius:10px;
+    padding: 10px;
+}
+
+p{
+    font-size:25px ;
+    font-family: 'Courier New', Courier, monospace;
+    text-align:justify;
+    max-width: 500px;
+    line-height: 22px;
+}
+.pdf1{
+color:rgb(154, 136, 216);
+display:none;
+
+
+}
